@@ -4,10 +4,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gocolly/colly"
+	//"github.com/gocolly/colly"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
+	/*
 	err := r.ParseForm()
 	if err != nil {
 		log.Fatal(err)
@@ -63,11 +64,5 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		w.Write(body)
 	}
 
-}
-
-type ServerHandler struct {
-}
-
-func (h *ServerHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	Handler(w, r)
+	*/
 }
